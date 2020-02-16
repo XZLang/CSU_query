@@ -1,0 +1,16 @@
+<!--pages/index/calender/calender.wxml-->
+<view class='title'>
+  <text>校历查询</text>
+</view>
+<view class='line'></view>
+<view class='info'>
+    <view class="section">
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{school}}">
+        <view class="picker">
+          当前选择：{{school[index]}}
+        </view>
+      </picker>
+    </view>
+ <image src='{{urls[index]}}' mode="widthFix" class='details'></image>
+</view>
+

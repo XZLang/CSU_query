@@ -1,0 +1,32 @@
+/* pages/index/schoolbus/schoolbus.wxss */
+.title{
+  text-align: center;
+  font-size: 40rpx;
+  color: #70DBDB;
+ margin-top: 80rpx;
+}
+
+.info{
+  margin-top:100rpx;
+ 
+}
+
+.amount{
+  color: #bab8c0;
+  font-size: 40rpx;
+  
+}
+
+.details{
+
+  width: 100%;
+
+
+}
+.line{
+  color: #bab8c0;
+  border-top-style:dotted;
+  border-width:10rpx;
+  margin-left: 0rpx;
+  margin-top:50rpx;
+}

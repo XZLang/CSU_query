@@ -1,0 +1,62 @@
+{
+  "navigateToMiniProgramAppIdList": [
+    "wx8d42e12067ba0907"
+  ],
+  "pages": [
+    "pages/index/index",
+    "pages/index/book/book",
+    "pages/index/calender/calender",
+    "pages/index/cet/cet",
+    "pages/index/classroom/classroom",
+    "pages/index/com/com",
+    "pages/index/grade/grade",
+    "pages/index/ranking/ranking",
+    "pages/index/schedule/schedule",
+    "pages/index/schoolbus/schoolbus",
+    "pages/index/community/community",
+    "pages/index/neighbor/neighbor",
+    "pages/index/mine/mine",
+    "pages/mine/mine",
+    "pages/community/community",
+    "pages/neighbor/neighbor"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#8a8a8a",
+    "selectedColor": "#70DBDB",
+    "backgroundColor": "#e9e7ef",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/首页.png",
+        "selectedIconPath": "images/首页_active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "iconPath": "images/社区.png",
+        "selectedIconPath": "images/社区_active.png",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/neighbor/neighbor",
+        "iconPath": "images/附近.png",
+        "selectedIconPath": "images/附近_active.png",
+        "text": "附近"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/我的.png",
+        "selectedIconPath": "images/我的_active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

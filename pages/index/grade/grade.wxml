@@ -1,0 +1,33 @@
+<!--pages/index/grade/grade.wxml-->
+<view class='title'>
+  <text>专业成绩查询</text>
+</view>
+<view class='line'></view>
+<view class='info'>
+      <view class="table">
+        <view class="tr bg-w">
+          <view class="th">科目</view>
+          <view class="th ">考试成绩</view>
+          <view class="th ">平时成绩</view>
+          <view class='th'>有效成绩</view>
+          <view class='th'>学分</view>
+        </view>
+        <block wx:for="{{listData}}" wx:for-index="dataindex">
+          <view class="tr bg-g">
+            <view class="td">{{listData[dataindex][2]}}</view>
+            <view class="td">{{listData[dataindex][3]}}</view>
+            <view class="td">{{listData[dataindex][4]}}</view>
+            <view class='td'>{{listData[dataindex][5]}}</view>
+            <view class='td'>{{listData[dataindex][6]}}</view>
+          </view>
+          <!-- <view class="tr bg-h" wx:else>
+            <view class="td">{{item.code}}</view>
+            <view class="td">{{item.text1}}</view>
+            <view class="td">{{item.text2}}</view>
+            <view class='td'>{{item.text3}}</view>
+            <view class='td'>{{item.text4}}</view>
+          </view> -->
+        </block>
+      </view>
+
+</view>

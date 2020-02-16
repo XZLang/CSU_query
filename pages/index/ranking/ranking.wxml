@@ -1,0 +1,25 @@
+<view class='title'>
+  <text>专业排名查询</text>
+</view>
+<view class='line' ></view>
+<view class='info'>
+<view >
+
+  <view class='amount'>{{"计算学分："}}{{listData[1]}}</view>
+  <view class='amount'>{{"专业排名："}}{{listData[2]}}</view>
+  <view class='amount'>{{"平均分："}}{{listData[3]}}</view>
+<!-- <view>listData[1][0][0]</view>
+<view wx:for="{{listData[1][0]}}" >
+  <view class='amount'>{{"姓名："}}{{listData[1][0][0]}}</view>
+  <view class='amount'>{{"学号："}}{{listData[1][0][0]}}</view>
+  <view class='amount'>{{"计算学分："}}{{listData[1][0][2]}}</view>
+  <view class='amount'>{{"专业排名："}}{{listData[1][0][3]}}</view>
+  <view class='amount'>{{"平均分："}}{listData[1][0][4]}}</view>
+  </view>
+  </view> -->
+  </view>
+  </view>
+  <view class='details'>
+    {{data}}
+  </view>
+

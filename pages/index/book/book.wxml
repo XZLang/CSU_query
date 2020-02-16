@@ -1,0 +1,25 @@
+<view class='title'>
+  <text>借书查询</text>
+</view>
+
+<view class='info'>
+      <view class="table">
+        <view wx:for="{{head_data}}" class="tr bg-g" >
+            <view class="th">{{item.title}}</view>
+            <view class="th">{{item.local}}</view>
+            <view class="th">{{item.author}}</view>
+            <view class="th">{{item.loandate}}</view>
+            <view class="th">{{item.returndate}}</view>
+        </view>
+        <block wx:for="{{books}}" wx:key="title">
+        <view class="tr bg-g" >
+            <view class="td">{{item.title}}</view>
+            <view class="td">{{item.local}}</view>
+            <view class="td">{{item.author}}</view>
+            <view class='td'>{{item.loandate}}</view>
+            <view class='td'>{{item.returndate}}</view>
+          </view>
+        </block>
+      </view>
+
+</view>

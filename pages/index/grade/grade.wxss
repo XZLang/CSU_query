@@ -1,0 +1,78 @@
+/* pages/index/grade/grade.wxss */
+
+
+
+
+.title{
+  text-align: center;
+  font-size: 40rpx;
+  color: #70DBDB;
+  margin-top: 80rpx;
+}
+
+.info{
+  margin-top: 0rpx;
+}
+
+.amount{
+  color: #bab8c0;
+  font-size: 40rpx;
+  
+}
+
+.details{
+  color: #bab8c0;
+
+}
+.line{
+  color: #bab8c0;
+  border-top-style:dotted;
+  border-width:10rpx;
+  margin-left: 0rpx;
+  margin-top:100rpx;
+}
+
+
+
+
+
+.table {
+  border: 0px solid darkgray;
+}
+.tr {
+  color: #bab8c0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+  margin-top: 40rpx;
+}
+.td {
+    width:20%;
+   
+    justify-content: center;
+    text-align: center;
+   
+}
+.bg-w{
+ font-size: 30rpx;
+ 
+}
+.bg-g{
+ font-size: 30rpx;
+ 
+}
+.bg-h{
+  font-size: 30rpx;
+  
+}
+.th {
+  width: 40%;
+  justify-content: center;
+  
+  color: #bab8c0;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}

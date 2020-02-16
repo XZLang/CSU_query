@@ -1,0 +1,19 @@
+<!--pages/index/com/com.wxml-->
+<view class='title'>
+  <text>计算机二级查询</text>
+</view>
+
+<view class='info'>
+  <view class='amount'><text>姓名：</text><input type='txet' placeholder-class='placeholderStyle' bindinput ="userNameInput"></input></view>
+  <view class='amount'><text>学号：</text><input type='txet' placeholder-class='placeholderStyle' bindinput ="userIDInput"></input></view>
+  <view class='amount'><text>准考证号：</text><input type='txet' placeholder-class='placeholderStyle' bindinput ="usernumInput"></input></view>
+ </view>
+ <button bindtap="loginBtnClick">查询</button>
+ <view class='line'></view>
+ 
+ <view style='margin-left:40rpx;'>
+  <view class='text'><text class='text'>报考项目为：{{amount}}</text></view>
+  <view class='text'><text class='text'>成绩：{{amount}}</text></view>
+  <view class='text'><text class='text'>证书号：{{amount}}</text></view>
+
+</view>

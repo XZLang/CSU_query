@@ -1,0 +1,108 @@
+/* pages/index/classroom/classroom.wxss */
+.title{
+  text-align: center;
+  font-size: 40rpx;
+  color: #70DBDB;
+  margin-top: 80rpx;
+}
+
+.info{
+  margin-top: 50rpx;
+
+}
+.school{
+  text-align: center;
+  font-size: 40rpx;
+
+}
+
+.amount{
+  color: #bab8c0;
+  font-size: 40rpx;
+  
+}
+
+.details{
+  color: #bab8c0;
+
+}
+.section{
+   background:#CABBC7;
+    margin: 20rpx;
+   padding:20rpx;
+   text-align: center;
+ 
+}
+
+
+.tab {
+  
+  width: 16.6666%;  
+  text-align: center;
+  padding: 10rpx 0;
+}
+ 
+.topTabSwiper {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  zoom: 1;
+}
+ 
+.topTabSwiper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+ 
+.tabBorer {
+  border-bottom: 1px solid #f00;
+  color: #f00;
+}
+ 
+.swiper {
+  width: 100%;
+}
+ 
+.swiper_con {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.table {
+  border: 0px solid darkgray;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+}
+.td {
+    width:40%;
+    justify-content: center;
+    text-align: center;
+}
+.bg-w{
+  background: snow;
+}
+.bg-g{
+  background: #E6F3F9;
+  justify-content:space-around;
+    text-align:center;
+}
+.th {
+  width: 40%;
+  justify-content: center;
+  background: rgb(112, 143, 236);
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}

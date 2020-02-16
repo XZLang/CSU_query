@@ -1,0 +1,20 @@
+<view class='title'>
+  <text>四六级查询</text>
+</view>
+
+<view class='info'>
+  <view class='amount'><text>姓名：</text><input type='txet' placeholder-class='placeholderStyle' bindinput ="userNameInput"></input></view>
+  <view class='amount'><text>学号：</text><input type='txet' placeholder-class='placeholderStyle' bindinput ="userIDInput"></input></view>
+  <view class='amount'><text>报考等级：</text><input type='txet' placeholder-class='placeholderStyle' bindinput ="cetInput"></input></view>
+  <view class='amount'><text>准考证号：</text><input type='txet' placeholder-class='placeholderStyle' bindinput ="usernumInput"></input></view>
+  
+ </view>
+ <button bindtap="loginBtnClick">查询</button>
+ <view class='line'></view>
+ 
+ <view class='info-bottom'>
+  <view class='ltext'><text class='ltext'>您的报考等级为：{{amount}}</text></view>
+  <view class='ltext'><text class='ltext'>您的成绩为：{{amount}}</text></view>
+  
+
+</view>

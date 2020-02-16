@@ -1,0 +1,47 @@
+<!--pages/index/schedule/schedule.wxml-->
+<view class='title'>
+  <text>课程表查询</text>
+</view>
+<view class='line'></view>
+<view class='info'>
+<!-- 表头 -->
+<view class="top">
+  <view wx:for="{{['一','二','三','四','五','六','日']}}" wx:key="*this" class="top-text">周{{item}}</view>
+</view>
+<scroll-view scroll-y="true" class="scroll">
+  <view style="height:1200rpx;width:730rpx;display:flex;">
+    <view style="background-color:#D2E6B3;color:#7cba23;">
+      <view wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12]}}" wx:key="*this" class="left">
+        {{item}}
+      </view>
+    </view>
+    <view wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12]}}" wx:key="*this">
+      <view style="width:750rpx;margin-top:{{(index+1)*150}}rpx;position: absolute;border-bottom:1rpx solid{{index==3?'red':'lightgray'}};">
+      </view>
+    </view>
+
+    <!--课表-->
+     <view wx:for="{{wlist}}" wx:key="*this" wx:for-index="timeindex">
+      <view wx:for="{{wlist[timeindex]}}" wx:key="*this" wx:for-index="dayindex">
+      <view wx:for="{{wlist[timeindex][dayindex]}}" wx:key="*this" class="flex-item kcb-item"style="margin-left:{{(dayindex)*100}}rpx;margin-top:{{(timeindex*2)*150+5}}rpx;height:{{2*150-5}}rpx;background-color:{{colorArrays[dayindex%9]}}">
+      <view data-index="{{index}}" wx:for="{{wlist[timeindex][dayindex]}}" wx:key="*this">
+      <view wx:for="{{wlist[timeindex][dayindex][index]}}" wx:key="*this">
+      <view class="smalltext" >{{item.classname}}</view>
+      <view class="smalltext" >{{item.teacher}}</view>
+      <view class='smalltext'> {{item.week}}</view> 
+      <view class="smalltext" >{{item.location}}</view>
+      </view>
+      </view>
+      <view class="smalltext" >{{item.classname}}</view>
+      <view class="smalltext" >{{item.teacher}}</view>
+      <view class='smalltext'> {{item.week}}</view>
+      <view class="smalltext" >{{item.location}}</view>
+      </view>
+      </view>
+      </view>
+
+  </view>
+</scroll-view>
+
+
+</view>

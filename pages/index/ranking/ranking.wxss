@@ -1,0 +1,30 @@
+/* pages/index/ranking/ranking.wxss */
+.title{
+  text-align: center;
+  font-size: 40rpx;
+  color: #70DBDB;
+  margin-top: 80rpx;
+}
+
+.info{
+  margin-top: 50rpx;
+  margin-left: 40rpx;
+}
+
+.amount{
+  color: #bab8c0;
+  font-size: 40rpx;
+  margin-top: 40rpx;
+}
+
+.details{
+  color: #bab8c0;
+
+}
+
+.line{
+  color: #bab8c0;
+  border-top-style:dotted;
+  border-width:10rpx;
+  margin-top:150rpx;
+}

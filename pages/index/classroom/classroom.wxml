@@ -1,0 +1,67 @@
+<!--pages/index/classroom/classroom.wxml-->
+<view class='title'>
+  <text>空教室查询</text>
+</view>
+
+<view class='info'>
+<view class='school'>
+<view class="section">
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{build}}">
+        <view class="picker">
+          当前选择：{{build[index]}}
+        </view>
+      </picker>
+    </view>
+
+</view>
+
+
+<view class="section">  
+  <picker mode="date" value="{{date}}" start="1978-01-01" end="2022-1-1" bindchange="bindDateChange">  
+    <view class="picker">  
+      日期: {{dates}}  
+    </view>  
+  </picker>  
+</view> 
+
+
+<!-- <view class='topTabSwiper'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>外网楼</view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>A座</view>
+    <view class='tab  {{currentData == 2 ? "tabBorer" : ""}}'  data-current = "2" bindtap='checkCurrent'>B座</view>
+    <view class='tab  {{currentData == 3 ? "tabBorer" : ""}}'  data-current = "3" bindtap='checkCurrent'>C座</view>
+    <view class='tab  {{currentData == 4 ? "tabBorer" : ""}}'  data-current = "4" bindtap='checkCurrent'>D座</view>
+    <view class='tab  {{currentData == 5 ? "tabBorer" : ""}}'  data-current = "5" bindtap='checkCurrent'>艺术楼</view>
+
+</view> -->
+
+
+<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
+  <swiper-item><view class='swiper_con'>
+   <view class="table">
+        <view class="tr bg-w">
+          <view class="th">教室</view>
+          <view class="th">1-2</view>
+          <view class="th ">3-4</view>
+          <view class="th ">5-6</view>
+          <view class="th ">7-8</view>
+          <view class="th ">9-10</view>
+         <!-- classroom_list[0].record[0].room_state -->
+
+        </view>
+        <block >
+          <view class="tr bg-g" wx:for="{{listData}}"  wx:for-index="roomindex">
+            <view>{{listData[roomindex].room_name}}</view>
+            <view wx:for="{{listData[roomindex].record}}">
+            <view wx:if="{{index % 2 == 0}}"> {{item.room_state}} </view>
+            <view wx:else></view>
+            </view>
+          </view>
+          
+        </block>
+      </view>
+   </view></swiper-item>
+</swiper>
+    
+
+</view>

@@ -1,0 +1,97 @@
+<scroll-view>{{tupian}}</scroll-view>
+<image class='pic' src='images/new_2.jpg' bindtap='navigateToMiniProgram'></image>
+<view class="nine">
+  
+  <view id='book'>
+    <navigator id='item' url='book/book'>
+      <view id='item'>
+        <image src="images/book.png">
+        </image>
+      </view>  
+      <text>借书查询</text>
+    </navigator>
+  </view>
+
+  <view id='ranking'>
+    <navigator id='item' url='ranking/ranking'>
+      <view id='item'>
+        <image src="images/rank.png">
+        </image>
+      </view>  
+      <text>专业排名查询</text>
+    </navigator>
+  </view>
+
+  <view id='schedule'>
+    <navigator id='item' url='schedule/schedule'>
+      <view id='item'>
+        <image src="/pages/index/images/schedule.png ">
+        </image>
+      </view>  
+      <text>课程表查询</text>
+    </navigator>
+  </view>
+
+  <view id='calender'>
+    <navigator id='item' url='calender/calender'>
+      <view id='item'>
+        <image src='images/calender.png'>
+        </image>
+      </view>  
+      <text>校历查询</text>
+    </navigator>
+  </view>
+
+  <view id='com2'>
+    <navigator id='item' url='com/com'>
+      <view id='item'>
+        <image src='images/com.png'>
+        </image>
+      </view>  
+      <text>计算机二级查询</text>
+    </navigator>
+  </view>
+
+  <view id='cet'>
+    <navigator id='item' url='cet/cet'>
+      <view id='item'>
+        <image src='images/cet.png'>
+        </image>
+      </view>  
+      <text>四六级查询</text>
+    </navigator>
+  </view>
+
+  <view id='grade'>
+    <navigator id='item' url='grade/grade'>
+      <view id='item'>
+        <image src='images/grades.png'>
+        </image>
+      </view>  
+      <text>专业成绩查询</text>
+    </navigator>
+  </view>
+
+  <view id='schoolbus'>
+    <navigator id='item' url='schoolbus/schoolbus'>
+      <view id='item'>
+        <image src='images/bus.png'>
+        </image>
+      </view>  
+      <text>校车查询</text>
+    </navigator>
+  </view>
+
+  <view id='classroom'>
+    <navigator id='item' url='classroom/classroom'>
+      <view id='item'>
+        <image src='images/classroom.png'>
+        </image>
+      </view>  
+      <text>空教室查询</text>
+    </navigator>
+  </view>
+
+
+
+</view>

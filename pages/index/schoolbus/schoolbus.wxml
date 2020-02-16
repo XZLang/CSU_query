@@ -1,0 +1,11 @@
+<!--pages/index/schoolbus/schoolbus.wxml-->
+<view class='title'>
+  <text>校车查询</text>
+</view>
+<view class='line'></view>
+<view class='info'>
+
+  <view class='amount'></view>
+  
+  <image src='{{urls[1]}}' mode="widthFix" class='details'></image>
+</view>

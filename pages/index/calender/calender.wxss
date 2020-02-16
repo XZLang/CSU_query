@@ -1,0 +1,37 @@
+/* pages/index/calender/calender.wxss */
+.title{
+  text-align: center;
+  font-size: 40rpx;
+  color: #70DBDB;
+  margin-top: 80rpx;
+}
+
+.info{
+  margin-top:50rpx;
+  
+}
+.section{
+   background:#CABBC7;
+   margin:20rpx;
+   padding:20rpx;
+   text-align: center;
+ 
+}
+
+.amount{
+  color: #bab8c0;
+  font-size: 40rpx;
+  
+}
+
+.details{
+  width: 100%;
+
+}
+.line{
+  color: #bab8c0;
+  border-top-style:dotted;
+  border-width:10rpx;
+  margin-left: 0rpx;
+  margin-top:50rpx;
+}
